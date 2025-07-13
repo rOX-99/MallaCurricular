@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Malla Curricular Interactiva</h1>
+  </header>
+
+  <main>
+    <section class="malla">
+      <h2>Semestre 1</h2>
+      <ul>
+        <li><a href="#" onclick="mostrarDetalles('asignatura1')">Matemáticas Básicas</a></li>
+        <li><a href="#" onclick="mostrarDetalles('asignatura2')">Lengua y Literatura</a></li>
+        <li><a href="#" onclick="mostrarDetalles('asignatura3')">Ciencias Sociales</a></li>
+      </ul>
+      
+      <div id="asignatura1" class="detalles">
+        <h3>Matemáticas Básicas</h3>
+        <p>Objetivo: Introducción a los conceptos fundamentales de las matemáticas.</p>
+        <p>Temas: Aritmética, Álgebra, Geometría.</p>
+      </div>
+      
+      <div id="asignatura2" class="detalles">
+        <h3>Lengua y Literatura</h3>
+        <p>Objetivo: Desarrollo de habilidades de lectura y escritura.</p>
+        <p>Temas: Gramática, Comprensión lectora, Redacción.</p>
+      </div>
+      
+      <div id="asignatura3" class="detalles">
+        <h3>Ciencias Sociales</h3>
+        <p>Objetivo: Introducción a los conceptos fundamentales de la historia y geografía.</p>
+        <p>Temas: Historia, Geografía, Civismo.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Malla Curricular Interactiva</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
